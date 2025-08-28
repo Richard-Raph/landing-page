@@ -1,0 +1,187 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Header Section */
+.hero,
+.header,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAFF;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.header-logo {
+    color: #F9FAFF;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-links a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 10%;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    color: #F9FAFF;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0 0 10px;
+}
+
+.hero-text p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.hero-text button,
+.cta-button button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 24px;
+    transition: background-color 0.3s;
+}
+
+.hero-text button:hover,
+.cta-button button:hover {
+    background-color: #2a6ddb;
+}
+
+.hero-image {
+    align-items: center;
+    background-color: #6c7d91;
+    color: #E5E7EB;
+    display: flex;
+    font-style: italic;
+    height: 250px;
+    justify-content: center;
+    width: 450px;
+}
+
+/* Information Section */
+.info-section {
+    background-color: #f0f4f8;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.info-section h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.info-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.card {
+    text-align: center;
+    width: 200px;
+}
+
+.card-image {
+    background-color: #b0c4de;
+    border-radius: 10px;
+    height: 150px;
+    margin: 0 auto 10px;
+    width: 150px;
+}
+
+.card-text {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Quote Section */
+.quote-section {
+    background-color: #E5E7EB;
+    line-height: 1.5;
+    padding: 100px 20%;
+    text-align: center;
+}
+
+.quote-section p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* Call to Action Section */
+.cta-section {
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 10%;
+    padding: 40px 10%;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.cta-text p {
+    color: #e0e8f0;
+    font-size: 16px;
+    margin: 5px 0 0;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAFF;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+}
